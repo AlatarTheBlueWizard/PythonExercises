@@ -13,7 +13,8 @@ for x in myList:
         #extra: add nums less than 5 to new list and display
         newList.append(x)
         newList.sort()
-        print(newList)
+        
+print(newList)
 
 #extra: enter a number and return elements of 
 # original list smaller than number inputted
@@ -23,4 +24,5 @@ for y in myList:
     if y < num:
         listForNumCheck.append(y)
         myList.sort()
-        print(listForNumCheck)
+        
+print(listForNumCheck)
