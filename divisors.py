@@ -16,4 +16,5 @@ for elem in x:
     if num % elem == 0:
         divisorList.append(elem)
         divisorList.sort()
-        print(divisorList)
+       
+print(divisorList)
